@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails',        '5.0.2'
+gem 'bcrypt',         '3.1.11'
 gem 'bootstrap-sass', '3.3.6'
 gem 'puma',         '3.4.0'
 gem 'sass-rails',   '5.0.6'
@@ -26,6 +27,7 @@ group :development do
 end
 
 group :test do
+  gem 'simplecov'
   gem 'rails-controller-testing', '0.1.1'
   gem 'minitest-reporters',       '1.1.9'
   gem 'guard',                    '2.13.0'
