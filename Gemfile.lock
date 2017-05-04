@@ -111,6 +111,8 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    pry-rails (0.3.6)
+      pry (>= 0.10.4)
     puma (3.4.0)
     rack (2.0.1)
     rack-test (0.6.3)
@@ -199,6 +201,7 @@ DEPENDENCIES
   listen (= 3.0.8)
   minitest-reporters (= 1.1.9)
   pg (= 0.18.4)
+  pry-rails
   puma (= 3.4.0)
   rails (= 5.0.0.1)
   rails-controller-testing (= 0.1.1)
